@@ -1,0 +1,72 @@
+.wrapper { font-family: Impact; 
+		font-style: italic;
+		font-weight: bolder;
+}
+
+header{
+	background: url(/C:/Users/User/Documents/GitHub/TEST/css/img/background.jpg) no-repeat center;
+	background-size: cover;
+	height: 300px;
+	padding: 60px;
+	text-align: center;
+
+}
+
+h1{
+	font-size: 40px;
+	color: black;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
+}
+header img{
+	border-radius: 150px;
+	border: 5px solid white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content { font-family: sans-serif; 
+		font-style: normal;
+		font-weight: normal;
+		color: #1C110A;
+		margin:0 auto;
+}
+
+img.big-image{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 50%;
+}
+
+p.caption{
+	font-size: 16px;
+	color: lightgrey;
+	font-style: italic;
+	text-align: center;
+	margin-top: 0; 
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+footer{
+	margin-top: 20px;
+	padding: 40px 20px;
+	background-color: lightgrey;
+}
+
+footer ul{
+	text-align: center;
+}
+
+footer ul li{
+	display: inline;
+	margin: 0 5px;
+}
